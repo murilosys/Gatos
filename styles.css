@@ -122,11 +122,9 @@ main {
   width: 43rem;   
   height: 21.9rem;
 
-  object-fit: cover;
-
-  --delay: 0.4s;  
-  animation: appear .4s var(--delay) backwards;
+  animation: appear .4s .4s backwards;
   
+  object-fit: cover;
   /* filter: drop-shadow(0px 0px .6rem var(--bc-font-color-p)); */
 }
 
