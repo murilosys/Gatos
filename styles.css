@@ -67,7 +67,7 @@ header .logo{
     
   width: 4rem;
   height: 4rem;
-  
+
 }
 
 header .avatar {
@@ -123,6 +123,10 @@ main {
   height: 21.9rem;
 
   object-fit: cover;
+
+  --delay: 0.4s;  
+  animation: appear .4s var(--delay) backwards;
+  
   /* filter: drop-shadow(0px 0px .6rem var(--bc-font-color-p)); */
 }
 
@@ -211,8 +215,7 @@ p {
 
 .image img {
   border-radius: 1rem;
-  --delay: 0.4s;  
-  animation: appear .4s var(--delay) backwards;
+
 
   /* filter: drop-shadow(0px 0px .6rem var(--bc-font-color-p)); */
 
@@ -306,6 +309,11 @@ footer p {
 
   aside {    
     margin: 4.4rem 11rem 29.5rem 3.4rem;
+  }
+
+  .image img {
+  --delay: 0.4s;  
+  animation: appear .4s var(--delay) backwards;
   }
 
 
