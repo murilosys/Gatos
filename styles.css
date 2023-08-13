@@ -248,7 +248,6 @@ footer {
 
 }
 
-
 footer p {
   color: var(--bc-font-color-white);
   text-align: center;
@@ -260,6 +259,7 @@ footer p {
 
 
 /* Responsividade */
+
 @media (min-width: 44em) {
   .page {    
   
@@ -272,7 +272,7 @@ footer p {
 
 
   header, footer {
-    width: 100%;
+    width: 100vw;
   }
 
   main {  
