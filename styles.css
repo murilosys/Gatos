@@ -272,7 +272,7 @@ footer p {
 
 
   header, footer {
-    width: 100vw;
+    width: 100%;
   }
 
   main {  
